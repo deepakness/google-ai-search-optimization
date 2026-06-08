@@ -6,6 +6,12 @@ This skill helps AI agents explain, audit, plan, and implement SEO work based on
 
 Primary source: [Google's guide to optimizing for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide).
 
+## Try It Online
+
+[![Try Google AI Search Optimization on Socialistic](https://socialistic.ai/api/embed/google-ai-search-optimization-73717e?lang=en)](https://socialistic.ai/en/skill/google-ai-search-optimization-73717e?utm_source=github&utm_medium=readme&utm_campaign=20260604-url-diagnostics-skill-builders&utm_content=badge)
+
+Paste a page URL and get the audit back — no clone or install required.
+
 ## Install
 
 Install with the open [`skills` CLI](https://github.com/vercel-labs/skills):
