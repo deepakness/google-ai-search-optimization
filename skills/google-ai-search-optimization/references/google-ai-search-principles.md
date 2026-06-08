@@ -181,3 +181,17 @@ Unsupported or overhyped tactics:
 - Treating structured data as an AI-specific visibility lever.
 
 Better framing: if a tactic does not improve users, crawlability, indexability, understanding, trust, or Search feature eligibility, it is probably noise.
+
+### Myth-Check Quick Reference
+
+When a user asks whether one of these tactics helps, answer in the Response Pattern shape: state the verdict, name the closest real Google mechanism, then redirect to the user/Search-centered alternative.
+
+| Claimed tactic | Verdict | Closest real Google mechanism | Do instead |
+| --- | --- | --- | --- |
+| `llms.txt` or AI-only machine-readable files | Not supported for Google AI Search | Standard crawling and indexing of normal HTML; `robots.txt` and sitemaps for crawl control | Make the human page crawlable, indexable, and snippet-eligible; serve the real content in HTML/rendered DOM |
+| Special Markdown or AI text versions of pages | Not supported | One canonical, indexable URL per meaningful page | Keep the primary content on the canonical page; avoid duplicate AI-only variants |
+| Splitting content into tiny chunks solely for AI | Overhyped | Passage-level understanding already operates over normal, well-structured pages | Use logical sections, descriptive headings, and stable URLs; consolidate rather than fragment |
+| Rewriting content in a special "AI style" | Not supported | Helpful, reliable, people-first content evaluation | Improve clarity, firsthand expertise, and evidence for the human reader |
+| Pages for every long-tail or guessed query fan-out | Not supported | Query fan-out runs over the existing Search index, not a per-query page | Map query families to fewer, stronger pages that answer related needs |
+| Inauthentic mentions, fake citations, manufactured reputation | Against spam policies | Genuine reputation, links, and E-E-A-T signals | Earn real expertise, sourcing, and citations; never manufacture them |
+| Structured data as an AI-specific ranking lever | Overhyped | Structured data for eligible rich results and clearer meaning of visible facts | Add accurate markup that matches visible content; validate with Rich Results Test |
